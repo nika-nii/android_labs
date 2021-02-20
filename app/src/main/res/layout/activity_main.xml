@@ -24,11 +24,18 @@
             android:text="Go next" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/go_web"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="openWeb"
             android:text="Go WEB" />
+
+        <Button
+            android:id="@+id/go_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openScroll"
+            android:text="Go scroll" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,4 +22,9 @@ class MainActivity : LabActivity() {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(web_link))
         startActivity(intent)
     }
+
+    fun openScroll(view: View) {
+        val intent = Intent(this, ScrollActivity::class.java)
+        startActivity(intent)
+    }
 }
